@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('job_ads', 'stg_job_ads') }}

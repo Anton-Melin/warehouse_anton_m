@@ -1,0 +1,13 @@
+dbt_projektledare:
+  outputs:
+    dev:
+      account: uv59691.west-europe.azure
+      database: proj_leader_ads
+      password: dbt_user_password123
+      role: proj_leader_ads_dbt_role
+      schema: warehouse
+      threads: 1
+      type: snowflake
+      user: dbt_user
+      warehouse: proj_leader_ads_wh
+  target: dev
